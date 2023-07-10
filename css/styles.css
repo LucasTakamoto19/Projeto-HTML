@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(233, 223, 240);
+}
+
+html{
+    font-family: "Poppins", sans-serif;
+    --cor-primaria:#2d3a3a;
+}
+
+h1{
+    text-align: center;
+}
+
+.section-option{
+    text-align: center;
+}
+
+.main{
+    padding: 16px 32px;
+}
+
+.container,
+.container-2,
+.container-3,
+.container-4,
+.container-5{
+    text-align: center;
+}
+
+.artigos{
+    width: 365px;
+    height: 100mm;
+    display: inline-block;
+}
+
+.tabela{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela td,
+.tabela th{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.tabela th{
+    background-color: var(--cor-primaria);
+    color: white;
+}
+
+.contato{
+    text-align: right;
+}
+
+.redes{
+    background-color: #2d3a3a;
+}
+
+.redes img{
+    height: 25px;
+}
